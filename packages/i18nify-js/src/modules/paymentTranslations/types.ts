@@ -1,6 +1,7 @@
 import PAYMENT_TRANSLATIONS_INFO from './data/paymentTranslationsConfig.json';
 
-export type PaymentTranslationsCodeType = keyof typeof PAYMENT_TRANSLATIONS_INFO;
+export type PaymentTranslationsCodeType =
+  keyof typeof PAYMENT_TRANSLATIONS_INFO;
 
 export interface PaymentTranslationsStrings {
   language_name: string;
